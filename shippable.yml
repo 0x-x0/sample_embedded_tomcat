@@ -7,5 +7,4 @@ jdk:
    - oraclejdk8
 build:
    ci:
-    - mvn package
-    - sh target/bin/webapp
+    - mvn test
