@@ -7,6 +7,5 @@ jdk:
    - oraclejdk8
 build:
    ci:
-    - mvn clean cobertura:cobertura
     - mvn package
     - sh target/bin/webapp
